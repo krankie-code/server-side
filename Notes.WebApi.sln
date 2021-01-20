@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.WebApi", "Notes.WebApi.csproj", "{8EF1F644-37E3-4E6B-920E-7AC3BCBB1C3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.DB", "..\Notes.DB\Notes.DB.csproj", "{416AB225-E21C-4ED4-96E7-F7FFF7270A59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Core", "..\Notes.Core\Notes.Core.csproj", "{10BACFDD-84E6-4103-89A9-F3A92A20B6DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EF1F644-37E3-4E6B-920E-7AC3BCBB1C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF1F644-37E3-4E6B-920E-7AC3BCBB1C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF1F644-37E3-4E6B-920E-7AC3BCBB1C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF1F644-37E3-4E6B-920E-7AC3BCBB1C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416AB225-E21C-4ED4-96E7-F7FFF7270A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416AB225-E21C-4ED4-96E7-F7FFF7270A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416AB225-E21C-4ED4-96E7-F7FFF7270A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416AB225-E21C-4ED4-96E7-F7FFF7270A59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10BACFDD-84E6-4103-89A9-F3A92A20B6DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10BACFDD-84E6-4103-89A9-F3A92A20B6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10BACFDD-84E6-4103-89A9-F3A92A20B6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10BACFDD-84E6-4103-89A9-F3A92A20B6DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6754BD6-10BC-475B-B3EE-1BEC79FD071B}
+	EndGlobalSection
+EndGlobal
